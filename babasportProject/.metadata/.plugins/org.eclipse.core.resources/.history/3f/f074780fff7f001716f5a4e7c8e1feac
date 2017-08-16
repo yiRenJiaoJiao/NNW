@@ -1,0 +1,5 @@
+package cn.babasport.dao;
+
+public interface TestMapper {
+
+}

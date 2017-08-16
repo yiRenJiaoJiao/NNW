@@ -1,0 +1,37 @@
+package cn.babasport.serviceImpl;
+
+import java.sql.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import cn.babasport.dao.TestMapper;
+import cn.babasport.pojo.TestTb;
+import cn.babasport.service.TestTbService;
+/**
+ * TestTb 服务控制器
+ * @author Administrator
+ *
+ */
+@Controller
+public class TestTbServiceImpl implements TestTbService{
+	@Autowired
+	private TestMapper testMapper;
+	
+	@Autowired
+	private TestTbService TestService;
+	/**
+	 * 添加实体
+	 */
+	@Override
+	public void add(TestTb t) {
+		testMapper.add(t);
+	}
+	@Test
+	public void add1(){
+		TestTb t1 = new TestTb();
+		t1.setBirthday(new Date(0));
+		t1.setName("linda2");
+		TestService.add(t1);
+	}
+}

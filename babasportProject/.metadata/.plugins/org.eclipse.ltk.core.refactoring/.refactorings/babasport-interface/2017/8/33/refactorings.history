@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.babasport.service.BandService&apos; to &apos;BrandService&apos;&#x0D;&#x0A;- Original project: &apos;babasport-interface&apos;&#x0D;&#x0A;- Original element: &apos;cn.babasport.service.BandService&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.babasport.service.BrandService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BandService&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;cn.babasport.service{BandService.java[BandService" matchStrategy="1" name="BrandService" qualified="false" references="true" similarDeclarations="false" stamp="1502718310167" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package cn.babasport.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import cn.babasport.dao.BrandDao;
+import cn.babasport.pojo.Brand;
+import cn.babasport.service.BrandService;
+/**
+ * 品牌的服务管理器
+ * @author Administrator
+ *
+ */
+@Service("brandService")
+public class BrandServiceIMpl implements BrandService{
+	
+	private BrandDao bandDao;
+	@Override
+	public List<Brand> findByExample(Brand brand) {
+		return bandDao.findByExample(brand);
+	}
+
+}

@@ -1,0 +1,10 @@
+package cn.babasport.common;
+
+public class FastDFSTools {
+
+	public static String uploadFile(byte[] bytes, String originalFilename) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

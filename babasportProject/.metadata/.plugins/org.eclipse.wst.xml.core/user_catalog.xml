@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://www.springframework.org/schema/aop/spring-aop.xsd" uri="file:///E:/javaRepository/babasportMaven/xsd/spring-aop.xsd"/>
+  <system systemId="http://www.springframework.org/schema/beans/spring-beans.xsd" uri="file:///E:/javaRepository/babasportMaven/xsd/spring-beans.xsd"/>
+  <system systemId="http://www.springframework.org/schema/context/spring-context.xsd" uri="file:///E:/javaRepository/babasportMaven/xsd/spring-context.xsd"/>
+  <system systemId="http://www.springframework.org/schema/mvc/spring-mvc.xsd" uri="file:///E:/javaRepository/babasportMaven/xsd/spring-mvc.xsd"/>
+  <system systemId="http://www.springframework.org/schema/task/spring-task.xsd" uri="file:///E:/javaRepository/babasportMaven/xsd/spring-task.xsd"/>
+  <system systemId="http://www.springframework.org/schema/tx/spring-tx.xsd" uri="file:///E:/javaRepository/babasportMaven/xsd/spring-tx.xsd"/>
+  <system systemId="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" uri="file:///E:/javaRepository/babasportMaven/xsd/dubbo.xsd"/>
+  <uri name="http://mybatis.org/dtd/mybatis-3-config.dtd" uri="file:///E:/javaRepository/babasportMaven/xsd/mybatis-3-config.dtd"/>
+  <uri name="http://mybatis.org/dtd/mybatis-3-mapper.dtd" uri="file:///E:/javaRepository/babasportMaven/xsd/mybatis-3-mapper.dtd"/>
+</catalog>

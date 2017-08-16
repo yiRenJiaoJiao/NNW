@@ -1,0 +1,8 @@
+package cn.babasport.dao;
+
+import cn.babasport.pojo.TestTb;
+
+public interface TestMapper {
+	
+	public void add(TestTb testTb);
+}

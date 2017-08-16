@@ -1,0 +1,18 @@
+package cn.babasport.serviceImpl;
+
+import cn.babasport.pojo.TestTb;
+import cn.babasport.service.TestTbService;
+/**
+ * TestTb service服务实现
+ * @author Administrator
+ *
+ */
+public class TestTbServiceImpl implements TestTbService{
+
+	@Override
+	public void add(TestTb testTb) {
+		
+		
+	}
+
+}

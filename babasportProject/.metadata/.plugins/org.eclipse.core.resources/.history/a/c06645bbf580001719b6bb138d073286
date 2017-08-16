@@ -1,0 +1,6 @@
+package cn.babasport.dao;
+
+public interface BrandDao {
+	public List<Brand> findByExample(Brand brand);
+}
+ 

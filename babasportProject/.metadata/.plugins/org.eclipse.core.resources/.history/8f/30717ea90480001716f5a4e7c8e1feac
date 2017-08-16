@@ -1,0 +1,32 @@
+package cn.babasport.daoTest;
+
+import static org.junit.Assert.*;
+
+import java.sql.Date;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import cn.babasport.dao.TestMapper;
+import cn.babasport.pojo.TestTb;
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations={"classpath:applicationContext.xml"})
+public class TestMapperTest implements TestMapper {
+	
+	@Autowired
+	private TestMapper testMapper;
+
+	@Override
+	public void add(TestTb testTb) {
+		TestTb t1 = new TestTb();
+		t1.setName("linda");
+		t1.setBirthday(new Date(0));
+		testMapper.add(testTb);
+		
+	}
+
+}

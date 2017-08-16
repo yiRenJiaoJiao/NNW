@@ -1,0 +1,10 @@
+package cn.babasport.pojo;
+
+import java.sql.Date;
+
+public class TestTb {
+	
+	private Integer id;
+	private String name;
+	private Date birthday;
+}

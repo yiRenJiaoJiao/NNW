@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<publish-info>
+  <server id="product" path="publish5.dat"/>
+  <server id="console" path="publish0.dat"/>
+  <server id="portal" path="publish4.dat"/>
+  <server id="cms" path="publish1.dat"/>
+  <server id="solr" path="publish6.dat"/>
+  <server id="login" path="publish3.dat"/>
+  <server id="cob" path="publish2.dat"/>
+</publish-info>

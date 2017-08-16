@@ -1,0 +1,14 @@
+package cn.babasport.common;
+
+import org.springframework.core.io.ClassPathResource;
+
+public class FastDFSTools {
+
+	public static String uploadFile(byte[] bytes, String originalFilename) {
+		//获取配置文件的绝对路径
+		ClassPathResource pathResource = new ClassPathResource("fdfs_client.conf");
+		
+		return null;
+	}
+
+}

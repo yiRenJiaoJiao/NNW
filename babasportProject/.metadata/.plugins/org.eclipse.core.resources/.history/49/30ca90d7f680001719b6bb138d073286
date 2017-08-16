@@ -1,0 +1,18 @@
+package cn.babasport.serviceImpl;
+
+import java.util.List;
+
+import cn.babasport.dao.BrandDao;
+import cn.babasport.pojo.Brand;
+import cn.babasport.service.BrandService;
+
+public class BrandServiceIMpl implements BrandService{
+	
+	private BrandDao bandDao;
+	@Override
+	public List<Brand> findByExample(Brand brand) {
+		bandDao.findByExample(brand);
+		return null;
+	}
+
+}

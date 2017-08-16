@@ -1,0 +1,46 @@
+package cn.babasport.dao;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Param;
+
+import cn.babasport.pojo.Brand;
+/**
+ * 品牌管理dao
+ * @author Administrator
+ *
+ */
+public interface BrandDao {
+	/**
+	 * 根据条件查询,根据类型获取所有的品牌
+	 * @param brand
+	 * @param pageSize 
+	 * @param pageNum 
+	 * @return
+	 */
+	public List<Brand> findByExample(Brand brand);
+	/**
+	 * 根据条件获取brand的数据
+	 * @param id
+	 * @return
+	 */
+	public Brand findBrandById(@Param("id")Long id);
+
+	/**
+	 * 根据id更新数据
+	 * @param brand
+	 * @return
+	 */
+	public void updateBrand(Brand brand);
+	/**
+	 * 添加brand数据
+	 * @param brand
+	 */
+	public void add(Brand brand);
+	/**
+	 * 根据id删除数据
+	 * @param id
+	 */
+	public void deleteBrandByStatus(@Param("id")String id);
+}
+ 

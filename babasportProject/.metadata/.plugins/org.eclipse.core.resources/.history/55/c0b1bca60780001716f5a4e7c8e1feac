@@ -1,0 +1,22 @@
+package cn.babasport.serviceImpl;
+
+import org.springframework.stereotype.Controller;
+
+import cn.babasport.pojo.TestTb;
+import cn.babasport.service.TestTbService;
+/**
+ * TestTb 服务控制器
+ * @author Administrator
+ *
+ */
+@Controller
+public class TestTbServiceImpl implements TestTbService{
+	
+	private
+	@Override
+	public void add(TestTb testTb) {
+		
+		
+	}
+
+}

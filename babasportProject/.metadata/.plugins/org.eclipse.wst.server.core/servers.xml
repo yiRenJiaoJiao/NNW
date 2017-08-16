@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/console-config" deployDir="wtpwebapps" hostname="localhost" id="console" name="console" runtime-id="console" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="300" stop-timeout="300" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="babasport-console::org.eclipse.jst.jee.server:babasport-console::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/portal-config" deployDir="wtpwebapps" hostname="localhost" id="portal" name="portal" runtime-id="portal" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="300" stop-timeout="300" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="babasport-portal::org.eclipse.jst.jee.server:babasport-portal::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/login-config" deployDir="wtpwebapps" hostname="localhost" id="login" name="login" runtime-id="login" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="300" stop-timeout="300" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="babasport-login::org.eclipse.jst.jee.server:babasport-login::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/solr-config" deployDir="wtpwebapps" hostname="localhost" id="solr" name="solr" runtime-id="solr" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="300" stop-timeout="300" testEnvironment="true" timestamp="5">
+    <list key="modules" value0="babasport-solr-service::org.eclipse.jst.jee.server:babasport-solr-service::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/cms-config" deployDir="wtpwebapps" hostname="localhost" id="cms" name="cms" runtime-id="portal" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="300" stop-timeout="300" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="babasport-cms-service::org.eclipse.jst.jee.server:babasport-cms-service::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/cob-config" deployDir="wtpwebapps" hostname="localhost" id="cob" name="cob" runtime-id="cob" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="300" stop-timeout="300" testEnvironment="true" timestamp="2">
+    <list key="modules" value0="babasport-cob-service::org.eclipse.jst.jee.server:babasport-cob-service::jst.web::2.5"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/product-config" deployDir="wtpwebapps" hostname="localhost" id="product" name="product" runtime-id="product" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="300" stop-timeout="300" testEnvironment="true" timestamp="2">
+    <list key="modules" value0="babasport-product-service::org.eclipse.jst.jee.server:babasport-product-service::jst.web::2.5"/>
+  </server>
+</servers>
